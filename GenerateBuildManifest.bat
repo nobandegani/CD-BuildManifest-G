@@ -40,21 +40,10 @@ FOR %%I IN ("*.pak") DO (
 	if !fne! NEQ pakchunk0-WindowsNoEditor.pak (echo !fne!		%%~zI		%vnumber%	!chunkid!	/%vpath%/!fne! >>%cpatch% ) 
 )
 
-
-
-
-::set var3=salamabdolah
-::echo %var3:~1,2%
-
 Pause
-::FOR %%variable IN list DO do_something
 
+
+::example build manifest ------------------------------------------------------------
 ::$NUM_ENTRIES = 7
 ::$BUILD_ID = Patcher-Live
 ::pakchunk2001-WindowsNoEditor.pak	649386902	ver001	2001	/VariantA/pakchunk2001-WindowsNoEditor.pak
-::pakchunk2002-WindowsNoEditor.pak	534713332	ver001	2002	/VariantA/pakchunk2002-WindowsNoEditor.pak
-::pakchunk2003-WindowsNoEditor.pak	752513736	ver001	2003	/VariantA/pakchunk2003-WindowsNoEditor.pak
-::pakchunk2004-WindowsNoEditor.pak	14426449	ver001	2004	/VariantA/pakchunk2004-WindowsNoEditor.pak
-::pakchunk2005-WindowsNoEditor.pak	3898957	ver001	2005	/VariantA/pakchunk2005-WindowsNoEditor.pak
-::pakchunk5001-WindowsNoEditor.pak	8005	ver001	5001	/VariantA/pakchunk5001-WindowsNoEditor.pak
-::pakchunk10001-WindowsNoEditor.pak	395255622	ver001	10001	/VariantA/pakchunk10001-WindowsNoEditor.pak
