@@ -1,0 +1,7 @@
+# text files to ignore the generated buildmanefests
+*.txt
+
+# pak files to ignore the example pak files for testing
+*.pak
+
+
