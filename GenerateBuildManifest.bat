@@ -23,11 +23,11 @@ set cpatch=.\BuildManifest-%filename%.txt
 set cnt=0
 for %%A in ("*.pak") do set /a cnt+=1
 set /A nentries= %cnt% - 1
-echo ^$NUM_ENTRIES =^ %nentries% >%cpatch%
+echo ^$NUM_ENTRIES =^ %nentries%>%cpatch%
 
 
 ::set $BUILD_ID =   --------------------------------------------------------------
-echo ^$BUILD_ID =^ %bid% >>%cpatch%
+echo ^$BUILD_ID =^ %bid%>>%cpatch%
 
 
 ::set pakchunk entries   ---------------------------------------------------------
