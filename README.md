@@ -1,5 +1,8 @@
 # CD-BuildManifest-G
-ChunkDownloader BuildManifest Generator
+this is depricated, and not working.
+replaced with win64/application.
+will add to repo in the future.
+BuildManifest Generator for Unreal engine ChunkDownloader plugin
 
 * batch script can create build manifest for chunk downloader
 
